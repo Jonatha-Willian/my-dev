@@ -28,13 +28,13 @@ function MenuNavegacao(){
                 <ul className="lista-menu-navegacao">
                     <li className="item-menu-navegacao" onClick={mudarParaEditor}>
                         <img className="img-menu-navegacao" 
-                            src="../public/assets/icone-editor-codigo.png">
+                            src="./public/assets/icone-editor-codigo.png">
                         </img>
                     <a href="#" className="texto-menu-navegacao">Editor de código</a>
                     </li>
                     <li className="item-menu-navegacao" onClick={mudarParaComunidade}>
                         <img className="img-menu-navegacao" 
-                         src="../public/assets/icone-comunidade.png">
+                         src="./public/assets/icone-comunidade.png">
                         </img>
                         <a href="#" className="texto-menu-navegacao">Comunidade</a>
                     </li>
@@ -46,3 +46,4 @@ function MenuNavegacao(){
 }
 
 export default MenuNavegacao
+
